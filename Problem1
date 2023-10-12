@@ -1,0 +1,20 @@
+public class MathCalc {
+    public static void main(String[] args) {
+        // Calculate the volume of the Earth
+        double radiusEarth = 7600.0 / 2.0; // Radius of Earth in miles
+        double volumeEarth = (4.0 / 3.0) * Math.PI * Math.pow(radiusEarth, 3);
+
+        // Calculate the volume of the Sun
+        double radiusSun = 865000.0 / 2.0; // Radius of Sun in miles
+        double volumeSun = (4.0 / 3.0) * Math.PI * Math.pow(radiusSun, 3);
+
+        // Calculate the ratio of the volume of the Sun to the volume of the Earth
+        double ratio = volumeSun / volumeEarth;
+
+        // Print the results
+        System.out.println("The volume of the Earth is " + volumeEarth + " cubic miles");
+        System.out.println("The volume of the Sun is " + volumeSun + " cubic miles");
+        System.out.println("The ratio of the volume of the Sun to the volume of the Earth is " + ratio);
+    }
+}
+
