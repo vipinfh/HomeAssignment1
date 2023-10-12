@@ -27,5 +27,47 @@ The text contained vowels: 60
 consonants: 93
 spaces: 37
 
+Output4:
+Sorted words:
+a
+against
+and
+and
+arms
+arrows
+be
+be
+by
+end
+fortune
+in
+is
+mind
+nobler
+not
+of
+of
+opposing
+or
+or
+outrageous
+question
+sea
+slings
+suffer
+take
+that
+the
+the
+the
+them
+tis
+to
+to
+to
+to
+troubles
+whether
+
 
 
