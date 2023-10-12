@@ -1,0 +1,15 @@
+public class Primes {
+    public static void main(String[] args) {
+        int nValues = 50;
+        outerLoop: // Label for continue
+        for (int i = 2; i <= nValues; i++) {
+            // No need for isPrime variable
+            for (int j = 2; j <= Math.sqrt(i); j++) { // Only test divisors up to the square root
+                if (i % j == 0) {
+                    continue outerLoop; // Use labeled continue
+                }
+            }
+            System.out.println(i);
+        }
+    }
+}
